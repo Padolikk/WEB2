@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.task-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.task-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.taks-2-list {
+    position: relative;
+}
+
+.taks-2-list ul {
+    list-style: none;
+}
+
+.taks-2-list ul li {
+    padding-left: 20px;
+    color: #D76F00;
+}
+
+.taks-2-list ul li::after {
+    position: absolute;
+    left: 0;
+    font-family: FontAwesome;
+}
+
+.taks-2-list ul li:nth-child(1)::after {
+    content: "\f002";
+}
+
+.taks-2-list ul li:nth-child(2)::after {
+    content: "\f27a";
+}
+
+.taks-2-list ul li:nth-child(3)::after {
+    content: "\f004";
+}
+
+.taks-2-list ul li:nth-child(4)::after {
+    content: "\f055";
+}
+
+.taks-2-list ul li:nth-child(5)::after {
+    content: "\f056";
+}
+
+.taks-2-list ul li:nth-child(6)::after {
+    content: "\f057";
+}
+
+.task-2-quote {
+    border-left: 4px solid #2286EC;
+    padding: 15px 20px;
+    font-family: FontAwesome;
+    background-color: #F6E6AD;
+}
+
+.task-2-quote label::before {
+    content: "\f100";
+    color:  #D76F00;
+}
+
+.task-2-quote label::after {
+    content: "\f101";
+    color:  #D76F00;
+}
+
+.task-3-table {
+    width: 250px;
+}
+
+.task-3-table tr th {
+    border: 1px solid grey;
+    padding: 5px;
+    background-color: grey;
+    text-align: left;
+}
+
+.task-3-table tr td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.task-3-table tr td:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+.task-3-table tr td:nth-child(even) {
+    text-align: right;
+}
+
